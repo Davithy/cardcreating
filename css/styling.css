@@ -1,0 +1,99 @@
+:root {
+    --body-color: rgb(128, 168, 255);
+    --card-color: white;
+    --header-color: rgb(49, 13, 148);
+    --text-color: white;
+    --signature-color: rgb(14, 38, 143);
+}
+/* You can change all colors here */
+
+/* webpage visuals */
+
+body {
+    background-color: var(--body-color);
+    font-family: 'Margesh', sans-serif;
+}
+
+.bangers-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* card design */
+
+.card {
+    width: 900px;
+    height: 600px;
+    background-color: var(--card-color);
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    border-radius: 7px;
+}
+
+.stamp {
+    position: absolute;
+    top: 30px; 
+    left: 730px;
+}
+
+.stamp-overlay {
+    position: absolute;
+    top: 39px; 
+    left: 740px;
+}
+
+.header {
+    background-color: var(--header-color);
+    color: var(--text-color);
+    margin: 0px;
+    border-radius: 7px 7px 0px 0px;
+    padding: 12px;
+}
+
+.address {
+    font-size:2rem;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 200px;
+    
+}
+
+.text {
+    padding: 12px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: 1.8rem;
+}
+
+.signature {
+    text-align: right;
+    color: var(--signature-color);
+    margin-right: 200px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.image {
+    position: absolute;
+    transform: translateY(-7rem);
+}
+
+/* BONUS: animations; take away the / and * to activate* */
+
+
+/*
+.card:hover {
+    background-image: url('../images/fireworks.gif');
+} 
+
+.fadein {
+    animation: fadeinbg 2s;
+}
+
+@keyframes fadeinbg {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+*/
